@@ -11,7 +11,7 @@ export class InputComponent implements OnInit, OnChanges{
   @Input() itemQueSeraEditado!: Item
 
   editando: boolean = false;
-  textoBtn: string = 'Salvar Item'
+  textoBtn: string = ''
   valorItem!: string;
 
   constructor(
